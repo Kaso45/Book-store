@@ -1,0 +1,44 @@
+.bg-pink {
+    background-color: rgb(181, 147, 125);
+}
+
+.text-blue {
+    color: navy;
+}
+
+/* aside section */
+.aside-container {
+    display: grid;
+    max-width: fit-content;
+}
+
+.aside-container button {
+    margin-top: 25px;
+}
+
+.box {
+    background-color: rgb(198, 222, 231);
+    width: fit-content;
+    height: fit-content;
+    border: 2px rgb(128, 128, 191) solid;
+    padding: 10px 20px;
+}
+
+.views {
+    display: flex;
+    justify-content: center;
+    margin-top: 19px;
+    gap: 20px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+/*description*/
+.description {
+    display:flex;
+    justify-content: space-between;
+}
